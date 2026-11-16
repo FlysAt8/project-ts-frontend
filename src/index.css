@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-dark: #0f172a;
+  --color-bg-card: #1e293b;
+  --color-neon-blue: #06b6d4;
+  --color-neon-pink: #ec4899;
+}
+
+body {
+  background-color: var(--color-bg-dark);
+  color: #e2e8f0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
